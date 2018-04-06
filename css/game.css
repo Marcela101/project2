@@ -1,0 +1,104 @@
+.background {
+    background: rgb(0, 92, 117);
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+.background td {
+    padding: 0;
+}
+
+.lava {
+    background-image: url("img/lava.jpg");
+}
+
+.lavadrop {
+    background-image: url("img/lavadrop.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.lavawalk {
+    background-image: url("img/fire.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.teleport {
+    background-image: url("img/spiral.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.wall {
+    background-image: url("img/rock.png");
+}
+
+.actor {
+    position: absolute;
+}
+
+.coin {
+    background-image: url("img/coin.gif");
+    background-size: 12px 12px;
+}
+
+.finish {
+    background-image: url("img/finish.png");
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.player {
+    background-image: url("img/player.png");
+    background-size: 16px 35px;
+}
+
+.floater {
+    background: white
+}
+
+.floater2 {
+    background: white
+}
+
+.floater3 {
+    background-image: url("img/rock.png");
+}
+
+.wallfake {
+    background-image: url("img/rock.png");
+}
+
+.coin2 {
+    background-image: url("img/coin.gif");
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+}
+
+.speed {
+    background-image: url("img/speed.png");
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+    background-position-y: -5px;
+}
+
+.game {
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 450px;
+    position: relative;
+}
+
+.lost .player {
+    background-image: url("img/player.png");
+    background-size: 16px 35px;
+}
+
+.won .player {
+    background-image: url("img/mariowin.png");
+    background-size: 16px 35px;
+}
